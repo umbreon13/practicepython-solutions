@@ -51,6 +51,8 @@ while game_stat == True:
                     game_stat = False
                     break
 
-print(f"Your number was guessed!! It's {guess}")
+print(f"Your number was guessed!! It's {guess} :)")
+
+#fin
 
             
