@@ -32,6 +32,8 @@ game_check.extend([diag_1,diag_2,column1,column2,column3])
 for elem in game_check:
     if len(set(elem)) <= 1:  # checks if a row has every element equal
         winner = elem[0]
+        print(f"The winner is Player {winner}")
         break
+    else:
+        print("No winner")
 
-print(f"The winner is Player {winner}")
