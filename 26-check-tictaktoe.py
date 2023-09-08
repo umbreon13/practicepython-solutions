@@ -2,6 +2,7 @@ game = [[1, 2, 0],
 	[2, 1, 0],
 	[2, 1, 1]]
 
+game_stat = True
 # firt, create lists with the elements of the columns and diagonals
 column1 = []
 column2 = []
@@ -33,7 +34,10 @@ for elem in game_check:
     if len(set(elem)) <= 1:  # checks if a row has every element equal
         winner = elem[0]
         print(f"The winner is Player {winner}")
+        game_stat = False
         break
-    else:
-        print("No winner")
+
+if game_stat == True:
+    print("No winner")
+    game_stat = False
 
