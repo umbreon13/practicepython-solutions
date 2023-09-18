@@ -7,12 +7,12 @@ import json
 #     "Ada Lovelace": "10/12/1815",
 # }
 
+# opens the json file with the info
 with open("birthdays.json", "r") as file:
     bday = json.load(file)
 
-# print(f"We've got these birthdays: {bday.keys()}")
-userin = input("Which one do you want to know? ")
-
+# print(f"We've got these birthdays: {bday.keys()}")   # for testing
+userin = input("Which birthday do you want to know? ")
 output = bday.get(userin, "This person is not in the list")  #2nd arg if it's not in the list
 
 while output == "This person is not in the list":
