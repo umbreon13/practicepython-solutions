@@ -1,4 +1,4 @@
-# function to draw the 
+# Full tic tac toe game
 #
 def f_board(game):
     
