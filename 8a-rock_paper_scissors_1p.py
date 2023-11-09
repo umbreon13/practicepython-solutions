@@ -1,3 +1,5 @@
+# This is the rock-paper-scissors game for one player against the CPU
+
 import random
 
 game_list = ["rock", "paper", "scissors"]

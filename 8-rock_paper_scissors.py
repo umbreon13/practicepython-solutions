@@ -1,3 +1,5 @@
+# This is the rock-paper-scissors game for two players
+
 print("ROCK-PAPER-SCISSORS GAME \n")
 
 user1 = input("First player: ")
