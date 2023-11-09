@@ -1,3 +1,5 @@
+# Full hang-man game
+
 import random
 
 with open('norvig_dictionary.txt','r') as read_file:
